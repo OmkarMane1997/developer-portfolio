@@ -1,0 +1,97 @@
+.menu-theme {
+  background-color: rgba(25, 25, 25, 1) !important;
+  color: #A7A7A7 !important;
+}
+
+
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Logo {
+  font-size: 20px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.ant-menu-item:hover {
+  color: white !important;
+}
+
+.ant-menu-item-selected {
+  color: white !important;
+  background-color: #191919 !important;
+}
+
+
+.Logo :nth-child(1) {
+  background: linear-gradient(62.8deg, #00C0FD -167.81%, #E70FAA 267.18%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+}
+
+.Logo :nth-child(2) {
+  background: linear-gradient(76.97deg, #13B0F5 -145.3%, #CA24B4 592.79%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.Logo :nth-child(3) {
+  background: linear-gradient(76.97deg, #13B0F5 -145.3%, #CA24B4 592.79%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Logo :nth-child(4) {
+  background: linear-gradient(78.29deg, #13B0F5 -232.67%, #CA24B4 485.44%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Logo :nth-child(5) {
+  background: linear-gradient(78.29deg, #13B0F5 -232.67%, #CA24B4 485.44%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Logo :nth-child(6) {
+  background: linear-gradient(76.97deg, #13B0F5 -333.74%, #CA24B4 404.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Logo :nth-child(7) {
+  background: linear-gradient(75.84deg, #13B0F5 -479.69%, #CA24B4 336.04%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Logo :nth-child(8) {
+  background: linear-gradient(78.02deg, #13B0F5 -500.66%, #CA24B4 208.04%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Logo :nth-child(9) {
+  background: linear-gradient(72.07deg, #13B0F5 -535.01%, #CA24B4 113.41%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Logo :nth-child(10) {
+  background: linear-gradient(72.07deg, #13B0F5 -535.01%, #CA24B4 113.41%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Logo :nth-child(11) {
+  background: linear-gradient(72.07deg, #13B0F5 -535.01%, #CA24B4 113.41%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+}
