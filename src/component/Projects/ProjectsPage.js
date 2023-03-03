@@ -5,6 +5,7 @@ import "./ProjectsPage.css";
 import PetWEB from "../../assets/image/PetWEB.png";
 import Demo from "../../assets/image/Demo.png";
 import GYM from "../../assets/image/GYM.png";
+import OmkarPortfoilo from "../../assets/image/OmkarPortfoilo.png";
 function ProjectsPage() {
   const data = [
     {
@@ -36,12 +37,12 @@ function ProjectsPage() {
     },
     {
       id: "4",
-      image: "",
-      name: "",
-      info: "",
-      techStack: "",
-      liveLink: "",
-      githubLink: "",
+      image: OmkarPortfoilo,
+      name: "Owen Portfolio WebSite",
+      info: "Translated Figma designs into responsive Web Design",
+      techStack: "ReactJs, AntD Lib, emailjs",
+      liveLink: "https://marvelous-cucurucho-b69924.netlify.app/",
+      githubLink: "https://github.com/OmkarMane1997/developer-portfolio",
     },
   ];
   return (
