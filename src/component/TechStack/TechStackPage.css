@@ -1,0 +1,24 @@
+.tech-stack {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 26px;
+    color: #CCCCCC;
+}
+
+.tech-stack-sub {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 26px;
+    color: #A7A7A7;
+}
+
+.ant-tooltip-inner {
+    background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%) !important;
+    color: black !important;
+    font-weight: bold;
+
+}

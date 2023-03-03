@@ -13,6 +13,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    cursor: pointer;
 
 }
 
@@ -23,6 +24,7 @@
     border: 3px solid;
     border-image: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%) 1 !important;
     background-clip: border-box;
+    cursor: pointer;
 }
 
 

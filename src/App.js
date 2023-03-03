@@ -1,6 +1,8 @@
 import React from "react";
 import HeaderPage from "./component/Header/HeaderPage";
 import HomePage from "./component/Home/HomePage";
+import TechStackPage from "./component/TechStack/TechStackPage";
+import ProjectsPage from "./component/Projects/ProjectsPage";
 import "./App.css";
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
       <div>
         <HeaderPage />
         <HomePage />
+        <TechStackPage />
+        <ProjectsPage />
       </div>
     </div>
   );
