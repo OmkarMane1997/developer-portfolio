@@ -5,6 +5,7 @@ import HomePage from "./component/Home/HomePage";
 import TechStackPage from "./component/TechStack/TechStackPage";
 import ProjectsPage from "./component/Projects/ProjectsPage";
 import "./App.css";
+import FooterPage from "./component/Footer/FooterPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <HomePage />
           <TechStackPage />
           <ProjectsPage />
+          <FooterPage/>
         </div>
       {/* </Routes> */}
     </BrowserRouter>

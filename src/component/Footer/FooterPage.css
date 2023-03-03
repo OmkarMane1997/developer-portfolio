@@ -1,0 +1,63 @@
+.footer {
+    margin-top: 3rem;
+    background-color: rgba(25, 25, 25, 1);
+
+
+}
+
+.footer-sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social-accounts {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 1rem;
+    margin-top: 15px;
+    /* margin-bottom: 15px; */
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-company {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    padding-bottom: 1rem;
+    text-align: center;
+    color: #A7A7A7;
+    mix-blend-mode: normal;
+}
+
+.footer-name {
+    background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: pointer;
+
+}
+
+.footer-link {
+    color: white;
+}
+
+/* Media query for screens up to 767px (i.e., tablets and mobiles) */
+@media (max-width: 767px) {
+    .footer-sub {
+        flex-direction: row;
+    }
+}
+
+/* Media query for screens 768px and above (i.e., desktops) */
+@media (min-width: 768px) {
+    .footer-sub {
+        flex-direction: row;
+    }
+}
