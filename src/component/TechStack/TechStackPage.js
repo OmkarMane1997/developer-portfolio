@@ -1,5 +1,5 @@
 import React from "react";
-import { Space, Tooltip } from "antd";
+import { Col, Row, Tooltip } from "antd";
 import "./TechStackPage.css";
 import html from "../../assets/image/html.png";
 import css from "../../assets/image/css.png";
@@ -12,6 +12,7 @@ import nodejs from "../../assets/image/nodejs.png";
 import githubFill from "../../assets/image/github-fill.png";
 import vscode from "../../assets/image/vscode.png";
 import logosGitIcon from "../../assets/image/logos_git-icon.png";
+import sass from "../../assets/image/sass.png";
 function TechStackPage() {
   return (
     <div className="container text-center">
@@ -20,43 +21,73 @@ function TechStackPage() {
         Technologies I’ve been working with recently
       </p>
       <br />
-      <div style={{ marginLeft: "3rem" }}>
-        <Space size={[50, 10]} wrap>
-          <Tooltip title="HTML / HTML5">
-            <img src={html} alt="html" />
-          </Tooltip>
-
-          <Tooltip title="CSS / CSS3">
-            <img src={css} alt="css" />
-          </Tooltip>
-          <Tooltip title="JS / ES6">
-            <img src={js} alt="js" />
-          </Tooltip>
-          <Tooltip title="Bootstrap">
-            <img src={bootstrap} alt="bootstrap" />
-          </Tooltip>
-          <Tooltip title="jQuery">
-            <img src={jQuery} alt="jQuery" />
-          </Tooltip>
-          <Tooltip title="React Js">
-            <img src={react} alt="react" />
-          </Tooltip>
-          <Tooltip title="AntD lib">
-            <img src={AntD} alt="AntD" />
-          </Tooltip>
-          <Tooltip title="NodeJs">
-            <img src={nodejs} alt="nodejs" />
-          </Tooltip>
-          <Tooltip title="GitHub">
-            <img src={githubFill} alt="githubFill" />
-          </Tooltip>
-          <Tooltip title="VSCode">
-            <img src={vscode} alt="vscode" />
-          </Tooltip>
-          <Tooltip title="GitBash">
-            <img src={logosGitIcon} alt="logosGitIcon" />
-          </Tooltip>
-        </Space>
+      <div>
+        <Row className="">
+          <Col xs={12} sm={6} md={4} lg={4} xl={4}>
+            <Tooltip title="HTML / HTML5">
+              <img src={html} alt="html" className=" img-fluid" />
+            </Tooltip>
+          </Col>
+          <Col xs={12} sm={6} md={4} lg={4} xl={4}>
+            <Tooltip title="CSS / CSS3">
+              <img src={css} alt="css" className=" img-fluid" />
+            </Tooltip>
+          </Col>
+          <Col xs={12} sm={6} md={4} lg={4} xl={4}>
+            <Tooltip title="JS / ES6">
+              <img src={js} alt="js" className=" img-fluid" />
+            </Tooltip>
+          </Col>
+          <Col xs={12} sm={6} md={4} lg={4} xl={4}>
+            <Tooltip title="Bootstrap">
+              <img src={bootstrap} alt="bootstrap" className=" img-fluid" style={{marginTop:"14px"}} />
+            </Tooltip>
+          </Col>
+          <Col xs={12} sm={6} md={4} lg={4} xl={4}>
+            <Tooltip title="GitBash">
+              <img
+                src={logosGitIcon}
+                alt="logosGitIcon"
+                className=" img-fluid"
+              />
+            </Tooltip>
+          </Col>
+          <Col xs={12} sm={6} md={4} lg={4} xl={4}>
+            <Tooltip title="NodeJs">
+              <img src={nodejs} alt="nodejs" className=" img-fluid" />
+            </Tooltip>
+          </Col>
+          <Col xs={12} sm={6} md={4} lg={4} xl={4}>
+            <Tooltip title="React Js">
+              <img src={react} alt="react" className=" img-fluid" />
+            </Tooltip>
+          </Col>
+          <Col xs={12} sm={6} md={4} lg={4} xl={4}>
+            <Tooltip title="GitHub">
+              <img src={githubFill} alt="githubFill" className=" img-fluid" />
+            </Tooltip>
+          </Col>
+          <Col xs={12} sm={6} md={4} lg={4} xl={4}>
+            <Tooltip title="VSCode">
+              <img src={vscode} alt="vscode" className=" img-fluid" />
+            </Tooltip>
+          </Col>
+          <Col xs={12} sm={6} md={4} lg={4} xl={4}>
+            <Tooltip title="jQuery">
+              <img src={jQuery} alt="jQuery" className=" img-fluid" />
+            </Tooltip>
+          </Col>
+          <Col xs={12} sm={6} md={4} lg={4} xl={4}>
+            <Tooltip title="AntD lib">
+              <img src={AntD} alt="AntD" className=" img-fluid" />
+            </Tooltip>
+          </Col>
+          <Col xs={12} sm={6} md={4} lg={4} xl={4}>
+            <Tooltip title="Sass">
+              <img src={sass} alt="Sass" className=" img-fluid" style={{marginTop:"14px"}} />
+            </Tooltip>
+          </Col>
+        </Row>
       </div>
     </div>
   );

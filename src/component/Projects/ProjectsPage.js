@@ -81,6 +81,7 @@ function ProjectsPage() {
           );
         })}
       </Row>
+      <br />
     </div>
   );
 }
