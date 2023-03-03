@@ -1,18 +1,22 @@
 import React from "react";
-import { Col, Row } from "antd";
+import { Col, Row, Typography } from "antd";
 import "./HomePage.css";
+import profile from "../../assets/image/profile.png";
 function HomePage() {
   return (
-    <div>
-      <Row>
-        <Col xs={2} sm={4} md={6} lg={8} xl={10}>
-          Col
+    <div className="container my-5" style={{ color: "white" }}>
+      <Row gutter={[24, 24]}>
+        <Col xs={24} sm={24} md={12} lg={12} xl={12} className="">
+          <Typography className="home-left ">
+            Hi 👋, <br /> My name is <br />{" "}
+            <span className="first-name">Omkar Mane</span> <br /> I build things
+            for web
+          </Typography>
         </Col>
-        <Col xs={20} sm={16} md={12} lg={8} xl={4}>
-          Col
-        </Col>
-        <Col xs={2} sm={4} md={6} lg={8} xl={10}>
-          Col
+        <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+          <div className="text-center">
+            <img src={profile} alt="profile" className="image " />
+          </div>
         </Col>
       </Row>
     </div>

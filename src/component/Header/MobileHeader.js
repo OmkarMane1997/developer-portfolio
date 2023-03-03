@@ -15,7 +15,7 @@ function MobileHeader() {
     <div>
       <div
         className="Header"
-        style={{ paddingLeft: "2rem", paddingRight: "2rem" }}
+        style={{ paddingLeft: "3rem", paddingRight: "3rem" }}
       >
         <div className="Logo">
           <span>&#123;</span>
@@ -32,10 +32,11 @@ function MobileHeader() {
 
         <Button
           onClick={showDrawer}
-          icon={<MenuOutlined />}
           className="menu-theme"
-          style={{ marginTop: "8px" }}
-        ></Button>
+          style={{ marginTop: "8px", verticalAlign: "2px !important" }}
+        >
+          <MenuOutlined />
+        </Button>
         <Drawer
           placement={"left"}
           width={"200"}

@@ -95,3 +95,7 @@
   -webkit-text-fill-color: transparent;
   font-size: 30px;
 }
+
+.anticon {
+  vertical-align: 2px !important;
+}

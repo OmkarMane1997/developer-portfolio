@@ -1,0 +1,29 @@
+.home-left {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+    letter-spacing: 3px;
+    color: #D9D9D9;
+}
+
+.first-name {
+    background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+
+.image {
+    width: 255px;
+    height: 255px;
+    border: 3px solid;
+    border-image: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%) 1 !important;
+    background-clip: border-box;
+}
+
+
+
