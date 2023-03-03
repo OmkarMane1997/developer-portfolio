@@ -4,6 +4,7 @@ import { LinkOutlined, GithubOutlined } from "@ant-design/icons";
 import "./ProjectsPage.css";
 import PetWEB from "../../assets/image/PetWEB.png";
 import Demo from "../../assets/image/Demo.png";
+import GYM from "../../assets/image/GYM.png";
 function ProjectsPage() {
   const data = [
     {
@@ -26,12 +27,12 @@ function ProjectsPage() {
     },
     {
       id: "3",
-      image: "",
-      name: "",
-      info: "",
-      techStack: "",
-      liveLink: "",
-      githubLink: "",
+      image:GYM,
+      name: "GYM Website",
+      info: "Created Site and implements this Lib framer-motion,number-counter",
+      techStack: "HTML5, CSS3, ReactJs,emailjs ",
+      liveLink: "https://19fc7d52.gmysite.pages.dev/",
+      githubLink: "https://github.com/OmkarMane1997/GYM-Website",
     },
     {
       id: "4",
@@ -54,15 +55,11 @@ function ProjectsPage() {
       <Row gutter={[24, 24]} className="container-sm">
         {data.map((item, index) => {
           return (
-            <Col xs={24} sm={12} md={8} lg={8} xl={8} key={index}>
+            <Col xs={24} sm={12} md={12} lg={8} xl={8} key={index}>
               <Card
                 hoverable
                 cover={<Image src={item.image} className="rounded" />}
-                actions={[
-                  <LinkOutlined key="setting" />,
-                  <GithubOutlined key="edit" />,
-                  <GithubOutlined key="ellipsis" />,
-                ]}
+                
                 className="Project-card"
               >
                 <Typography className="Project-title">{item.name}</Typography>
@@ -70,14 +67,14 @@ function ProjectsPage() {
                 <div className="Project-techStack">
                   <p>Tech Stack:- {item.techStack}</p>
                 </div>
-                {/* <div className="Project-last">
+                <div className="Project-last">
                   <div>
                     <LinkOutlined style={{ marginRight: "5px" }} /> Live Preview
                   </div>
                   <div>
                     <GithubOutlined style={{ marginRight: "5px" }} /> View Code
                   </div>
-                </div> */}
+                </div>
               </Card>
             </Col>
           );

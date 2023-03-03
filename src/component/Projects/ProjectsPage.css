@@ -6,6 +6,9 @@
     line-height: 26px;
     color: #FFFFFF;
     padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
 }
 
@@ -13,7 +16,7 @@
     background: #363636;
     box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
     border: 0px solid !important;
-    height: 500px;
+    
     position: relative;
 }
 
@@ -35,7 +38,7 @@
     color: #FFFFFF;
     text-decoration-line: underline;
 
-   
+
 
 }
 
