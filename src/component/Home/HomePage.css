@@ -27,5 +27,23 @@
     cursor: pointer;
 }
 
+.outer_circle {
+    position: relative;
+    width: 255px;
+    height: 255px;
+    border-radius: 50%;
+}
+  
+.inner_circle {
+    background-image:linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%) 1 !important;
+    content: '';
+    position: absolute;
+    top: -20px;
+    bottom: -20px;
+    right: -20px;
+    left: -20px;
+    z-index: -1;
+    border-radius: inherit;
+}
 
 
