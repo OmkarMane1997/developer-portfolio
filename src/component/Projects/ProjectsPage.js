@@ -5,7 +5,7 @@ import "./ProjectsPage.css";
 import PetWEB from "../../assets/image/PetWEB.png";
 import Demo from "../../assets/image/Demo.png";
 import GYM from "../../assets/image/GYM.png";
-import OmkarPortfoilo from "../../assets/image/OmkarPortfoilo.png";
+import my from "../../assets/image/my.png";
 function ProjectsPage() {
   const data = [
     {
@@ -26,9 +26,10 @@ function ProjectsPage() {
       liveLink: "https://demo-omkar.netlify.app",
       githubLink: "https://github.com/OmkarMane1997/Demo-Single-Page",
     },
+
     {
       id: "3",
-      image:GYM,
+      image: GYM,
       name: "GYM Website",
       info: "Created Site and implements this Lib framer-motion,number-counter",
       techStack: "HTML5, CSS3, ReactJs,emailjs ",
@@ -37,7 +38,7 @@ function ProjectsPage() {
     },
     {
       id: "4",
-      image: OmkarPortfoilo,
+      image: my,
       name: "Owen Portfolio WebSite",
       info: "Translated Figma designs into responsive Web Design",
       techStack: "ReactJs, AntD Lib, emailjs",
@@ -53,14 +54,13 @@ function ProjectsPage() {
       </div>
       <br />
 
-      <Row gutter={[24, 24]} className="container-sm">
+      <Row gutter={[24, 24]}>
         {data.map((item, index) => {
           return (
             <Col xs={24} sm={12} md={12} lg={8} xl={8} key={index}>
               <Card
                 hoverable
-                cover={<Image src={item.image} className="rounded" />}
-                
+                cover={<Image src={item.image} className="rounded img-fluid" />}
                 className="Project-card"
               >
                 <Typography className="Project-title">{item.name}</Typography>

@@ -16,8 +16,6 @@
     background: #363636;
     box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
     border: 0px solid !important;
-    
-    position: relative;
 }
 
 .Project-info {
@@ -27,7 +25,7 @@
     font-size: 18px;
     line-height: 26px;
     color: #FFFFFF;
-    text-align: justify;
+   text-justify: auto;
 
 }
 
@@ -52,4 +50,13 @@
     align-items: center;
     color: #FFFFFF;
     text-align: justify;
+}
+.ant-image-preview-img {
+    padding: 10px 10px;
+
+}
+@media (max-width: 767px) {
+  .card-center {
+    padding: 16px;
+  }
 }
