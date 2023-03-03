@@ -5,7 +5,7 @@ import "./ProjectsPage.css";
 import PetWEB from "../../assets/image/PetWEB.png";
 import Demo from "../../assets/image/Demo.png";
 import GYM from "../../assets/image/GYM.png";
-import my from "../../assets/image/my.png";
+import { NavLink } from "react-router-dom";
 function ProjectsPage() {
   const data = [
     {
@@ -36,15 +36,15 @@ function ProjectsPage() {
       liveLink: "https://19fc7d52.gmysite.pages.dev/",
       githubLink: "https://github.com/OmkarMane1997/GYM-Website",
     },
-    {
-      id: "4",
-      image: my,
-      name: "Owen Portfolio WebSite",
-      info: "Translated Figma designs into responsive Web Design",
-      techStack: "ReactJs, AntD Lib, emailjs",
-      liveLink: "https://marvelous-cucurucho-b69924.netlify.app/",
-      githubLink: "https://github.com/OmkarMane1997/developer-portfolio",
-    },
+    // {
+    //   id: "4",
+    //   image: my,
+    //   name: "Owen Portfolio WebSite",
+    //   info: "Translated Figma designs into responsive Web Design",
+    //   techStack: "ReactJs, AntD Lib, emailjs",
+    //   liveLink: "https://marvelous-cucurucho-b69924.netlify.app/",
+    //   githubLink: "https://github.com/OmkarMane1997/developer-portfolio",
+    // },
   ];
   return (
     <div className="container ">
@@ -56,6 +56,7 @@ function ProjectsPage() {
 
       <Row gutter={[24, 24]}>
         {data.map((item, index) => {
+          let { liveLink, githubLink } = item;
           return (
             <Col xs={24} sm={12} md={12} lg={8} xl={8} key={index}>
               <Card
@@ -70,10 +71,16 @@ function ProjectsPage() {
                 </div>
                 <div className="Project-last">
                   <div>
-                    <LinkOutlined style={{ marginRight: "5px" }} /> Live Preview
+                    <NavLink to={liveLink} style={{ color: "white" }}>
+                      <LinkOutlined style={{ marginRight: "5px" }} /> Live
+                      Preview
+                    </NavLink>
                   </div>
                   <div>
-                    <GithubOutlined style={{ marginRight: "5px" }} /> View Code
+                    <NavLink to={githubLink} style={{ color: "white" }}>
+                      <GithubOutlined style={{ marginRight: "5px" }} /> View
+                      Code
+                    </NavLink>
                   </div>
                 </div>
               </Card>

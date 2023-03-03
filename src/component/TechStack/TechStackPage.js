@@ -25,22 +25,52 @@ function TechStackPage() {
         <Row className="">
           <Col xs={12} sm={6} md={4} lg={4} xl={4}>
             <Tooltip title="HTML / HTML5">
-              <img src={html} alt="html" className=" img-fluid" />
+              <img
+                src={html}
+                alt="html"
+                className=" img-fluid"
+                style={{ width: "100px", height: "100px" }}
+              />
             </Tooltip>
           </Col>
           <Col xs={12} sm={6} md={4} lg={4} xl={4}>
             <Tooltip title="CSS / CSS3">
-              <img src={css} alt="css" className=" img-fluid" />
+              <img
+                src={css}
+                alt="css"
+                className=" img-fluid"
+                style={{ width: "100px", height: "100px" }}
+              />
             </Tooltip>
           </Col>
           <Col xs={12} sm={6} md={4} lg={4} xl={4}>
             <Tooltip title="JS / ES6">
-              <img src={js} alt="js" className=" img-fluid" />
+              <img
+                src={js}
+                alt="js"
+                className=" img-fluid"
+                style={{ width: "100px", height: "100px" }}
+              />
             </Tooltip>
           </Col>
           <Col xs={12} sm={6} md={4} lg={4} xl={4}>
             <Tooltip title="Bootstrap">
-              <img src={bootstrap} alt="bootstrap" className=" img-fluid" style={{marginTop:"14px"}} />
+              <img
+                src={bootstrap}
+                alt="bootstrap"
+                className=" img-fluid"
+                style={{ marginTop: "14px" }}
+              />
+            </Tooltip>
+          </Col>
+          <Col xs={12} sm={6} md={4} lg={4} xl={4}>
+            <Tooltip title="Sass">
+              <img
+                src={sass}
+                alt="Sass"
+                className=" img-fluid"
+                style={{ marginTop: "14px", width: "100px", height: "100px" }}
+              />
             </Tooltip>
           </Col>
           <Col xs={12} sm={6} md={4} lg={4} xl={4}>
@@ -49,42 +79,68 @@ function TechStackPage() {
                 src={logosGitIcon}
                 alt="logosGitIcon"
                 className=" img-fluid"
+                style={{ width: "100px", height: "100px" }}
               />
             </Tooltip>
           </Col>
           <Col xs={12} sm={6} md={4} lg={4} xl={4}>
             <Tooltip title="NodeJs">
-              <img src={nodejs} alt="nodejs" className=" img-fluid" />
+              <img
+                src={nodejs}
+                alt="nodejs"
+                className=" img-fluid"
+                style={{ width: "100px", height: "100px" }}
+              />
             </Tooltip>
           </Col>
           <Col xs={12} sm={6} md={4} lg={4} xl={4}>
             <Tooltip title="React Js">
-              <img src={react} alt="react" className=" img-fluid" />
+              <img
+                src={react}
+                alt="react"
+                className=" img-fluid"
+                style={{ width: "100px", height: "100px" }}
+              />
             </Tooltip>
           </Col>
           <Col xs={12} sm={6} md={4} lg={4} xl={4}>
             <Tooltip title="GitHub">
-              <img src={githubFill} alt="githubFill" className=" img-fluid" />
+              <img
+                src={githubFill}
+                alt="githubFill"
+                className=" img-fluid"
+                style={{ width: "100px", height: "100px" }}
+              />
             </Tooltip>
           </Col>
           <Col xs={12} sm={6} md={4} lg={4} xl={4}>
             <Tooltip title="VSCode">
-              <img src={vscode} alt="vscode" className=" img-fluid" />
+              <img
+                src={vscode}
+                alt="vscode"
+                className=" img-fluid"
+                style={{ width: "100px", height: "100px" }}
+              />
             </Tooltip>
           </Col>
           <Col xs={12} sm={6} md={4} lg={4} xl={4}>
             <Tooltip title="jQuery">
-              <img src={jQuery} alt="jQuery" className=" img-fluid" />
+              <img
+                src={jQuery}
+                alt="jQuery"
+                className=" img-fluid"
+                style={{ width: "100px", height: "100px" }}
+              />
             </Tooltip>
           </Col>
           <Col xs={12} sm={6} md={4} lg={4} xl={4}>
             <Tooltip title="AntD lib">
-              <img src={AntD} alt="AntD" className=" img-fluid" />
-            </Tooltip>
-          </Col>
-          <Col xs={12} sm={6} md={4} lg={4} xl={4}>
-            <Tooltip title="Sass">
-              <img src={sass} alt="Sass" className=" img-fluid" style={{marginTop:"14px"}} />
+              <img
+                src={AntD}
+                alt="AntD"
+                className=" img-fluid"
+                style={{ width: "100px", height: "100px" }}
+              />
             </Tooltip>
           </Col>
         </Row>
