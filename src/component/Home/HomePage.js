@@ -4,7 +4,7 @@ import "./HomePage.css";
 import profile from "../../assets/image/profile.png";
 function HomePage() {
   return (
-    <div className="container my-5" style={{ color: "white" }}>
+    <div className="container my-5" style={{ color: "white" }} id='home'>
       <Row gutter={[24, 24]}>
         <Col xs={24} sm={24} md={12} lg={12} xl={12} className="">
           <Typography className="home-left ">

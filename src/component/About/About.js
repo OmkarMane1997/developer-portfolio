@@ -7,7 +7,7 @@ import {
 } from "@ant-design/icons";
 function About() {
   return (
-    <div className="container">
+    <div className="container" id="About">
       <div className="text-center">
         <div className="aboutMe my-5">About Me</div>
       </div>

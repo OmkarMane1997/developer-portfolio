@@ -8,23 +8,26 @@ import {
 } from "@ant-design/icons";
 import { Divider } from "antd";
 import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 
 function FooterPage() {
   return (
     <div className="footer container">
       <div className="footer-sub">
-        <div className="Logo">
-          <span>&#123;</span>
-          <span>O</span>
-          <span>m</span>
-          <span>k</span>
-          <span>a</span>
-          <span>r</span> <span>M</span>
-          <span>a</span>
-          <span>n</span>
-          <span>e</span>
-          <span>&#125;</span>
-        </div>
+        <Link to={"header"}>
+          <div className="Logo">
+            <span>&#123;</span>
+            <span>O</span>
+            <span>m</span>
+            <span>k</span>
+            <span>a</span>
+            <span>r</span> <span>M</span>
+            <span>a</span>
+            <span>n</span>
+            <span>e</span>
+            <span>&#125;</span>
+          </div>
+        </Link>
         <div className="social-accounts">
           <NavLink
             to={"https://github.com/OmkarMane1997"}
@@ -54,7 +57,10 @@ function FooterPage() {
       </div>
       <Divider style={{ borderColor: "white" }} />
       <div className="footer-company">
-        Designed and built by <span className="footer-name">Omkar Mane</span>
+        Designed and built by{" "}
+        <span className="footer-name">
+          <Link to={"header"}>Omkar Mane</Link>{" "}
+        </span>
       </div>
     </div>
   );

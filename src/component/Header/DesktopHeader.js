@@ -2,11 +2,12 @@ import React from "react";
 import { Menu } from "antd";
 
 import "./HeaderPage.css";
+import { Link } from "react-scroll";
 
 function DesktopHeader() {
   return (
     <>
-      <div className="container Header">
+      <div className="container Header" id="header">
         <div className="Logo">
           <span>&#123;</span>
           <span>O</span>
@@ -24,11 +25,21 @@ function DesktopHeader() {
           defaultSelectedKeys={["Home"]}
           className="menu-theme"
         >
-          <Menu.Item key="Home">Home</Menu.Item>
-          <Menu.Item key="TechStack">Tech Stack</Menu.Item>
-          <Menu.Item key="Project">Project</Menu.Item>
-          <Menu.Item key="About">About</Menu.Item>
-          <Menu.Item key="Resume">Resume</Menu.Item>
+          <Menu.Item key="Home">
+            <Link to={"home"}>Home</Link>
+          </Menu.Item>
+          <Menu.Item key="echStack">
+            <Link to={"techStack"}>Tech Stack</Link>
+          </Menu.Item>
+          <Menu.Item key="Project">
+            <Link to={"Project"}> Project</Link>
+          </Menu.Item>
+          <Menu.Item key="About">
+            <Link to={"About"}> About</Link>
+          </Menu.Item>
+          <Menu.Item key="Resume">
+            <Link to={"Resume"}> Resume</Link>
+          </Menu.Item>
         </Menu>
       </div>
     </>

@@ -12,7 +12,7 @@ function ResumePage() {
     console.log("first");
   };
   return (
-    <div className="container text-center">
+    <div className="container text-center" id="Resume">
       <div className="text-center">
         <div className="aboutMe my-5">Resume</div>
       </div>

@@ -2,6 +2,7 @@ import { Button, Drawer, Menu } from "antd";
 import React, { useState } from "react";
 import { MenuOutlined } from "@ant-design/icons";
 import "./HeaderPage.css";
+import { Link } from "react-scroll";
 
 function MobileHeader() {
   const [open, setOpen] = useState(false);
@@ -12,7 +13,7 @@ function MobileHeader() {
     setOpen(false);
   };
   return (
-    <div>
+    <div id="header">
       <div
         className="Header"
         style={{ paddingLeft: "3rem", paddingRight: "3rem" }}
@@ -51,12 +52,21 @@ function MobileHeader() {
             defaultSelectedKeys={["Home"]}
             className="menu-theme"
           >
-            <Menu.Item key="Home">Home</Menu.Item>
-            <Menu.Item key="About">About</Menu.Item>
-            <Menu.Item key="TechStack">Tech Stack</Menu.Item>
-            <Menu.Item key="Project">Project</Menu.Item>
-            <Menu.Item key="Contact">Contact</Menu.Item>
-            <Menu.Item key="Resume">Resume</Menu.Item>
+            <Menu.Item key="Home">
+            <Link to={"home"}>Home</Link>
+          </Menu.Item>
+          <Menu.Item key="echStack">
+            <Link to={"techStack"}>Tech Stack</Link>
+          </Menu.Item>
+          <Menu.Item key="Project">
+            <Link to={"Project"}> Project</Link>
+          </Menu.Item>
+          <Menu.Item key="About">
+            <Link to={"About"}> About</Link>
+          </Menu.Item>
+          <Menu.Item key="Resume">
+            <Link to={"Resume"}> Resume</Link>
+          </Menu.Item>
           </Menu>
         </Drawer>
       </div>

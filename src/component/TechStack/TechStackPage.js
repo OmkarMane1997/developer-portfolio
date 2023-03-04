@@ -15,7 +15,7 @@ import logosGitIcon from "../../assets/image/logos_git-icon.png";
 import sass from "../../assets/image/sass.png";
 function TechStackPage() {
   return (
-    <div className="container text-center">
+    <div className="container text-center" id="techStack">
       <div className="tech-stack my-5">My Tech Stack</div>
       <p className="tech-stack-sub my-4">
         Technologies I’ve been working with recently
