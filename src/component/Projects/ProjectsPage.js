@@ -61,7 +61,13 @@ function ProjectsPage() {
             <Col xs={24} sm={12} md={12} lg={8} xl={8} key={index}>
               <Card
                 hoverable
-                cover={<Image src={item.image} className="rounded img-fluid" />}
+                cover={
+                  <Image
+                    src={item.image}
+                    className="rounded img-fluid "
+                    style={{ padding: "5px" }}
+                  />
+                }
                 className="Project-card"
               >
                 <Typography className="Project-title">{item.name}</Typography>

@@ -28,7 +28,6 @@ function DesktopHeader() {
           <Menu.Item key="TechStack">Tech Stack</Menu.Item>
           <Menu.Item key="Project">Project</Menu.Item>
           <Menu.Item key="About">About</Menu.Item>
-          <Menu.Item key="Contact">Contact</Menu.Item>
           <Menu.Item key="Resume">Resume</Menu.Item>
         </Menu>
       </div>

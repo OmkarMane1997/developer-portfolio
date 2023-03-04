@@ -6,19 +6,22 @@ import TechStackPage from "./component/TechStack/TechStackPage";
 import ProjectsPage from "./component/Projects/ProjectsPage";
 import "./App.css";
 import FooterPage from "./component/Footer/FooterPage";
+import About from "./component/About/About";
+import ResumePage from "./component/Resume/ResumePage";
 
 function App() {
   return (
     <BrowserRouter>
-      {/* <Routes> */}
-        <div className="theme">
-          <HeaderPage />
-          <HomePage />
-          <TechStackPage />
-          <ProjectsPage />
-          <FooterPage/>
-        </div>
-      {/* </Routes> */}
+      <div className="theme">
+        <HeaderPage />
+        <HomePage />
+        <TechStackPage />
+        <ProjectsPage />
+        <About/>
+        <ResumePage/>
+        <FooterPage />
+      </div>
+     
     </BrowserRouter>
   );
 }

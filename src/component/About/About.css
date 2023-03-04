@@ -1,0 +1,81 @@
+.aboutMe {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 26px;
+    color: #CCCCCC;
+}
+
+.aboutMe-info {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #666666;
+    text-justify: inter-word;
+}
+
+.work-experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.work-experience-left {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #666666;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.full-time-badge {
+    background: #D7FFE0;
+    border-radius: 100px;
+    width: 100px;
+    padding-left: 17px;
+    margin-left: 126px;
+    cursor: pointer;
+}
+
+.full-time {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 26px;
+    color: #018C0F;
+
+}
+
+.date-work-experience {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #A7A7A7;
+}
+
+@media (max-width: 767px) {
+    .work-experience {
+        flex-direction: column;
+
+    }
+
+    .full-time-badge {
+
+        margin-left: 0px;
+
+    }
+}
